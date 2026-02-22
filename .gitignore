@@ -161,3 +161,4 @@ cython_debug/
 data/
 main.py
 tst.py
+.vscode

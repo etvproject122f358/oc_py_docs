@@ -2,11 +2,14 @@
 
 ![OC_PY](https://github.com/mshemuni/oc_py/actions/workflows/OC_PY.yml/badge.svg)
 ![OC_PY](https://img.shields.io/badge/coverage-60%25-31c553)
+[![Documentation Status](https://readthedocs.org/projects/oc-py/badge/?version=latest)](https://oc-py.readthedocs.io/en/latest/?badge=latest)
 ![OC_PY](https://img.shields.io/badge/Win-%E2%9C%93-f5f5f5?logo=windows11)
 ![OC_PY](https://img.shields.io/badge/Ubuntu-%E2%9C%93-e95420?logo=Ubuntu)
 ![OC_PY](https://img.shields.io/badge/MacOS-%E2%9C%93-dadada?logo=macos)
 ![OC_PY](https://img.shields.io/badge/Python-%203.11,%203.12,%203.13,%203.14-3776ab?logo=python)
 ![OC_PY](https://img.shields.io/badge/LIC-GNU/GPL%20V3-a32d2a?logo=GNU)
+
+**Documentation**: [oc-py.readthedocs.io](https://oc-py.readthedocs.io/en/latest/)
 
 `ocpy` is a robust Python library designed for **O‑C (Observed – Calculated) analysis**, a core technique in astronomy for studying period variations in binary systems, transiting exoplanets, and pulsating stars.
 
