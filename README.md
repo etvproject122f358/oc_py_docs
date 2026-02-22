@@ -33,7 +33,7 @@
 
 #### Via pip (Recommended)
 ```bash
-pip install ocpy
+pip install oc_py
 ```
 
 #### From Source
