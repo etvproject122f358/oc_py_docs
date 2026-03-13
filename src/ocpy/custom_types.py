@@ -1,4 +1,5 @@
-from typing import Union, List, Tuple, Literal, Callable, Any
+from __future__ import annotations
+from typing import Union, List, Tuple, Literal, Callable
 
 import numpy as np
 from numpy._typing import NDArray
@@ -9,11 +10,7 @@ BinarySeq = Union[
     Tuple[Literal[0, 1], ...],
     NDArray[np.bool_],
 ]
-"""Type alias for a binary sequence (0/1 or bool), typically used for minimum classifications."""
 
 # A callable that takes a 1D ndarray and returns a numeric value
-ArrayReducer = Callable[[NDArray[np.floating]], int | float | np.number]
-"""Type alias for a function that reduces an array to a single number (e.g., mean, median)."""
-
-NumberOrParam = float | int | None | Any
-"""Type alias for a value that can be either a numeric literal or a Parameter instance."""
+ArrayReducer = Callable[[NDArray[np.floating]], Union[int, float, np.number]]
+NumberOrParam = Union[float, int, None, "Parameter"]  # noqa: F821

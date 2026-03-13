@@ -28,6 +28,30 @@ ocpy.errors module
    :show-inheritance:
    :undoc-members:
 
+ocpy.model\_data module
+-----------------------
+
+.. automodule:: ocpy.model_data
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+ocpy.model\_oc module
+---------------------
+
+.. automodule:: ocpy.model_oc
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+ocpy.newtonian module
+---------------------
+
+.. automodule:: ocpy.newtonian
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
 ocpy.oc module
 --------------
 

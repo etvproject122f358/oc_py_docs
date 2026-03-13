@@ -1,17 +1,16 @@
-.. OC Py Docs documentation master file, created by
-   sphinx-quickstart on Sun Feb 22 16:27:05 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+OC-PY
+==========
+Welcome to the documentation for `oc-py`!
 
-OC Py Docs documentation
-========================
-
-.. include:: ../../README.md
-   :parser: myst_parser.sphinx_
+.. include:: pages/home.md
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :hidden:
+   :caption: Contents
 
+   pages/installation
+   pages/examples
+   pages/license
+   pages/aknowledgement
    api/modules
-

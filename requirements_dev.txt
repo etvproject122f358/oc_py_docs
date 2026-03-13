@@ -1,10 +1,6 @@
-pytest==9.0.2
-pytest-cov==7.0.0
-mypy==1.19.1
-mypy_extensions==1.1.0
-flake8==7.3.0
-tox==4.34.1
-tox-gh-actions==3.5.0
-myst-parser==4.0.1
-sphinx-rtd-theme==3.0.2
-sphinx==8.2.3
+pytest
+pytest-cov
+mypy
+flake8
+tox
+tox-gh-actions
