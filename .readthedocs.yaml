@@ -12,6 +12,7 @@ python:
   install:
     - requirements: requirements.txt
     - requirements: requirements_dev.txt
+    - requirements: docs/requirements.txt   # Sphinx + theme + extensions
 
 sphinx:
   configuration: docs/source/conf.py
