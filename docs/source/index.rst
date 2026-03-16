@@ -1,8 +1,5 @@
-OC-PY
-==========
-Welcome to the documentation for `oc-py`!
 
-.. include:: pages/home.md
+.. include:: pages/home.rst
 
 .. toctree::
    :maxdepth: 3
@@ -12,5 +9,6 @@ Welcome to the documentation for `oc-py`!
    pages/installation
    pages/examples
    pages/license
-   pages/aknowledgement
+   pages/acknowledgement
+   pages/contributors
    api/modules

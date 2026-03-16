@@ -1,10 +1,12 @@
-# oc-py: A Modular Python Suite for Eclipse Timing Variation Analysis
+oc-py: A Modular Python Suite for Eclipse Timing Variation Analysis
+===================================================================
 
 oc-py is an open-source, platform-independent Python-3 library designed for high-precision modeling and analysis of Eclipse Timing Variations (ETV). Developed with a modular architecture, the software provides a robust pipeline from raw data processing to complex modeling and Bayesian inference.
 
 By leveraging standard scientific libraries, oc-py ensures reliability and reproducibility in modeling orbital period variations, whether they are periodic or cyclic driven by light-travel time effect (LiTE), dynamical perturbations, or stellar magnetic activity; or secular driven by mechanisms such as mass transfer / loss, gravitational radiation.
 
-## Key Features & Modules
+Key Features & Modules
+______________________
 
 oc-py is structured into functional modules to facilitate a flexible research workflow:
 
@@ -23,7 +25,7 @@ oc-py is structured into functional modules to facilitate a flexible research wo
 
 - **Statistical Analysis:**
   - **MCMC Sampling:** Full Bayesian parameter estimation and posterior probability mapping using PyMC.
-  - **Model Comparison:** Statistical model selection (AIC, BIC, $\chi^2_\nu$) to distinguish between competing models.
+  - **Model Comparison:** Statistical model selection (AIC, BIC, :math:`\chi^2_\nu`) to distinguish between competing models.
 
 - **Visualization & Output:**
   - **Plotting:** Graphics and plots for publication-ready O-C curves, and corner plots (parameter correlations).

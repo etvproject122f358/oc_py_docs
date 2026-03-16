@@ -8,7 +8,8 @@ import sys
 # Project information
 # ---------------------------------------------------------------------------
 
-project = 'oc_py'
+project = 'oc-py'
+html_title = "oc-py Documentation"
 copyright = '2026, Barış GÜLER, Özgür BAŞTÜRK, Mohammad NIAEI'
 author = 'Barış GÜLER, Özgür BAŞTÜRK, Mohammad NIAEI'
 release = '0.0.1b1'
@@ -21,6 +22,7 @@ sys.path.insert(0, os.path.abspath('../../src'))
 # ---------------------------------------------------------------------------
 
 extensions = [
+#    'myst_parser',
     'myst_nb',                 # Jupyter notebook + Markdown support (includes myst_parser)
     'sphinx.ext.autodoc',      # Generate docs from docstrings
     'sphinx.ext.napoleon',     # Parse NumPy / Google style docstrings
@@ -45,6 +47,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '**.ipynb_checkpoints']
 # ---------------------------------------------------------------------------
 
 myst_enable_extensions = [
+    "dollarmath",
     "colon_fence",   # ::: fences as directives
     "deflist",       # definition lists
     "dollarmath",    # $...$ and $$...$$ math
