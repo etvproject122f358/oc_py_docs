@@ -1,12 +1,12 @@
-# ocpy: A Modular Python Suite for Eclipse Timing Variation Analysis
+# oc-py: A Modular Python Suite for Eclipse Timing Variation Analysis
 
-ocpy is an open-source, platform-independent Python-3 library designed for high-precision modeling and analysis of Eclipse Timing Variations (ETV). Developed with a modular architecture, the software provides a robust pipeline from raw data processing to complex modeling and Bayesian inference.
+oc-py is an open-source, platform-independent Python-3 library designed for high-precision modeling and analysis of Eclipse Timing Variations (ETV). Developed with a modular architecture, the software provides a robust pipeline from raw data processing to complex modeling and Bayesian inference.
 
-By leveraging standard scientific libraries, ocpy ensures reliability and reproducibility in modeling orbital period variations, whether they are periodic or cyclic driven by light-travel time effect (LiTE), dynamical perturbations, or stellar magnetic activity; or secular driven by mechanisms such as mass transfer / loss, gravitational radiation.
+By leveraging standard scientific libraries, oc-py ensures reliability and reproducibility in modeling orbital period variations, whether they are periodic or cyclic driven by light-travel time effect (LiTE), dynamical perturbations, or stellar magnetic activity; or secular driven by mechanisms such as mass transfer / loss, gravitational radiation.
 
 ## Key Features & Modules
 
-ocpy is structured into functional modules to facilitate a flexible research workflow:
+oc-py is structured into functional modules to facilitate a flexible research workflow:
 
 - **Data Pre-processing:**
   - **Read data:** Multi-format support (ASCII, CSV, Excel) via `pandas` and `astropy`.
