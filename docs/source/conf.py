@@ -10,9 +10,10 @@ import sys
 
 project = 'oc-py'
 html_title = "oc-py Documentation"
-copyright = '2026, Barış GÜLER, Özgür BAŞTÜRK, Mohammad NIAEI'
+copyright = "2026, Özgür Baştürk, Ekrem Murat Esmer, Barış Güler, Mohammad Niaei"
 author = 'Barış GÜLER, Özgür BAŞTÜRK, Mohammad NIAEI'
 release = '0.0.1b1'
+#html_show_copyright = False
 
 # Make sure the package source is importable by autodoc
 sys.path.insert(0, os.path.abspath('../../src'))
@@ -95,7 +96,9 @@ html_theme = 'furo'
 
 html_theme_options = {
     "navigation_with_keys": True,
-    "sidebar_hide_name":    False,
+    "sidebar_hide_name":    False
 }
 
 html_static_path = ['_static']
+html_favicon = '_static/ocpy.png'
+html_logo = '_static/ocpy.png'
